@@ -5,8 +5,8 @@ import sys
 
 
 
-# This script take file of IPs as argumnet
-# Return information about each IP
+# This script takes file of IPs as argument
+# Returns information about each IP
 
 
 
