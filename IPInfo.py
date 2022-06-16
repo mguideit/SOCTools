@@ -9,7 +9,6 @@ from bs4 import BeautifulSoup
 # This script take file of IPs as argumnet
 # Return information about each IP
 
-# ha9u%aJmEGnX*R
 
 
 if len(sys.argv) < 2:
