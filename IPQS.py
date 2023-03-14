@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 import sys
 
 
-
 # This script depends on ipqualityscore.com and acts as: IP reputation checker
 # No API is needed, the script scrape the content from ipqualityscore.com
+
 
 if len(sys.argv) < 2:
   print("Usage: "+sys.argv[0]+" [IP]")
@@ -65,22 +65,8 @@ def IPQS(IPQ):
 	return FinalRes
 
 
-xy = IPQS(IPQ)
-print(xy)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Q = IPQS(IPQ)
+print(Q)
 
 
 
